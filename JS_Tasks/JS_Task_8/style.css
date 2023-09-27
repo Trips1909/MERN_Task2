@@ -1,0 +1,57 @@
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-select {
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-checkbox {
+    margin-bottom: 10px;
+}
+
+.save-button {
+    background-color: rgb(190, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div
+      style="
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      "
+    >
+    <section class="p-4 m-auto " >
+        <!-- <h1 class="p-2 h1 mb-3 fw-normal">Multiply or divide</h1> -->
+        <div class = "h4 p-2 mb-3 grid-container" >
+
+            <label class = "m-2">Name: </label>
+            <input class = "m-2" type="text" id="inputName" />
+            <h3 class = "m-2 message" id="messageName"> </h3>
+            <!--  -->
+            <label class = "m-2">Email: </label>
+            <input class = "m-2" type="email" id="inputEmail" />
+            <h3 class = "m-2 message" id="messageEmail">  </h3>
+            <!---->
+
+            <label class = "m-2">Website: </label>
+            <input class = "m-2" type="url" id="inputWebsite" />
+            <h3 class = "m-2 message" id="messageWebsite"> </h3>
+            <!-- -->
+
+            <label class = "m-2">Message: </label>
+            <textarea class = "m-2" type="text" id="inputMessage" ></textarea>
+            <h3 class = "m-2 message" id="messageMessage"> </h3>
+
+            <button class = "mt-4" style="border-radius: 15%;" id = "submitBtn">
+                Submit
+            </button>
+        </div>
+        <!-- <div class=" row"> -->
+          
+          
+        <!-- </div>
+        <div class="h4 p-2 mb-3 row">
+            <label>2nd Number: </label>
+            <input type="number" id="inputNum2" />
+          </div> -->
+
+    </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+       <script src ="./script.js"></script>
+</body>
+</html>
